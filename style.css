@@ -13,19 +13,12 @@
 
 header{
     height: 80px;
-    background-color: var(--bordeaux);
+    background-color: var(--dark-blue);
 }
 
-.altezza{
-    height: 80px;
+.bd-solid{
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 15px;
 }
 
-.altezza2{
-    height: 400px;
-    background-color: var(--green);
-}
-
-.col img{
-    width: 30%;
-    max-width: 100%;
-}
