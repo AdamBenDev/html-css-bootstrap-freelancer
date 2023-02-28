@@ -24,10 +24,7 @@ header{
     padding: 15px;
 }
 
-[class^="col-12"] {
-    border: 2px dashed black;
-    height: 250px;
-}
+
 
 
 
@@ -69,6 +66,12 @@ header{
     max-height: 100%;
 }
 
-/* !!!!!!!!!!!!!    SECTION ABOUT !!!!!!!!*/
+/* !!!!!!!!!!!!!    SECTION FORM !!!!!!!!*/
 
-
+.fa-brands{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}

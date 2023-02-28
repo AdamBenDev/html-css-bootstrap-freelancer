@@ -25,7 +25,18 @@
         <nav class="navbar navbar-expand-md h-100 navbar-dark bg-custom-dark-blue">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand fs-4 fw-bold">Start Bootstrap</a>
-                <span class="navbar-toggler-icon bd-solid"></span>
+
+                <span class="navbar-toggler-icon bd-solid d-md-none "></span>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbar-nav">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item"><a href="#" class="nav-link text-white">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">ABOUT</a>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -117,7 +128,7 @@
     </section>
 
 
-    <!--?????SECTION ABOUT??????-->
+    <!--?????      SECTION ABOUT     ??????-->
 
 
     <section class="about bg-custom-dark-blue py-4">
@@ -132,16 +143,20 @@
                         <i class="fa-solid fa-star mx-3"></i>
                         <div class="line bg-white"></div>
                     </div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem recusandae voluptatibus enim.
-                        Expedita beatae nihil vero, in laboriosam natus perferendis quia error molestias possimus
-                        corporis? Ex repudiandae quos atque!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae accusamus quos
-                        laudantium ipsam aliquid assumenda corrupti maxime dolore. Sequi corrupti harum quia voluptas
-                        fugit possimus magni asperiores facilis ad!
-                    </p>
+                    <div class="d-md-flex">
+                        <p class="col-md-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rem recusandae voluptatibus
+                            enim.
+                            Expedita beatae nihil vero, in laboriosam natus perferendis quia error molestias possimus
+                            corporis? Ex repudiandae quos atque!
+                        </p>
+                        <p class="col-md-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae accusamus quos
+                            laudantium ipsam aliquid assumenda corrupti maxime dolore. Sequi corrupti harum quia
+                            voluptas
+                            fugit possimus magni asperiores facilis ad!
+                        </p>
+                    </div>
                     <div>
 
                         <a href="#" class="btn btn-outline-success text-white btn-outline-light">Dowload</a>
@@ -152,33 +167,102 @@
     </section>
 
     <!--??????????SECTION FORM????????-->
-    <form class="container-fluid">
-        <div class="row flex-column align-content-center ">
-            <div class="col-7">
-                <label for="inputName">Name</label>
 
+
+    <section class="form">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-md-4 text-center my-4">
+                        <h4>CONTACT ME</h4>
+                    </div>
+                    <div class="portfolio-text d-flex justify-content-center align-items-center">
+                        <div class="line bg-black"></div>
+                        <i class="fa-solid fa-star mx-3"></i>
+                        <div class="line bg-black"></div>
+
+                    </div>
+                </div>
             </div>
-            <div class="col-7">
-                <label for="inputEmail">Email</label>
 
-            </div>
-            <div class="col-7">
-                <label for="inputPhone">Phone</label>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <form class="">
+                        <div class="my-3">
+                            <input type="text"
+                                class="form-control fs-5 ps-0 rounded-0 border-top-0 border-start-0 border-end-0 border-secondary"
+                                value="Name" id="name" name="name">
+                        </div>
 
-            </div>
+                        <div class="my-3">
+                            <input type="text"
+                                class="form-control fs-5 ps-0 rounded-0 border-top-0 border-start-0 border-end-0 border-secondary"
+                                value="Email" id="name" name="name">
+                        </div>
 
+                        <div class="my-3">
+                            <input type="text"
+                                class="form-control fs-5 ps-0 rounded-0 border-top-0 border-start-0 border-end-0 border-secondary"
+                                value="Phone number" id="name" name="name">
+                        </div>
 
-            <div class="col-7">
-                <label for="inputSubject">Subject</label>
+                        <div class="my-3">
+                            <input type="text"
+                                class="form-control fs-5 ps-0 rounded-0 border-top-0 border-start-0 border-end-0 border-secondary"
+                                value="Messages" id="name" name="name">
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-success mb-3 mt-5">Send</a>
 
-            </div>
-            <div class="col-7">
-                <label for="inputMessage">Message</label>
-
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+
+
+    </section>
+
+    <section class="info bg-dark">
+        <div class="container-fluid">
+            <div class="row text-white text-center">
+                <div class="col-12 my-3">
+                    <div class="location my-1">
+                        LOCATION
+                        <p>2215 John Daniel Drive Clark,MO 54243</p>
+                    </div>
+                </div>
+                <div class="col-12 my-3">
+                    <div class="around">
+                        AROUND THE WEB
+                        <div class="icons fs-5 my-3">
+                            <i class="fa-brands fa-facebook-f me-1"></i>
+                            <i class="fa-brands fa-google-plus-g me-1"></i>
+                            <i class="fa-brands fa-twitter me-1"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 my-3">
+                    <div class="ABOUT FREELANCER">
+                        ABOUT FREELANCER
+                        <p>Freelancer is a free to use,open source Bootstrap theme created by Start Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="copyright bg-black">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center my-5 text-white">
+                    <p>Copyright @ your Website 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
