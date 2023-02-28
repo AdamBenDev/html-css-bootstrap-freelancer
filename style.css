@@ -24,14 +24,12 @@ header{
     padding: 15px;
 }
 
-[class^="col-"] {
+[class^="col-12"] {
     border: 2px dashed black;
-    height: 200px;
+    height: 250px;
 }
 
-    [class^="col-"] {
-        @extend .debug;
-      }
+
 
 /* !JUMBOTRON*/
 
@@ -49,6 +47,10 @@ header{
     border-radius: 10px;
 }
 
+.bg-green{
+    background-color: var(--green);
+    color: var(--white);
+}
 
 /* !PORTFOLIO*/
 
@@ -58,12 +60,12 @@ header{
 
 .card{
     height: 100%;
-    width: 100%;
+    
 }
 
 
 .card img{
-    max-width: 100%;
+    
     max-height: 100%;
 }
 
