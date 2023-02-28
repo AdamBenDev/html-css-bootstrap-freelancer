@@ -43,7 +43,7 @@ header{
 
 .line{
     height: 4px;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
 }
 
@@ -60,8 +60,12 @@ header{
 
 .card{
     height: 100%;
-    
 }
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 
 .card img{
